@@ -10,8 +10,8 @@ public class Reading {
         FileInputStream fileInputStream = new FileInputStream(file);
         BufferedInputStream bufferedInputStream = new BufferedInputStream(fileInputStream, 10000);
         int i;
-        while((i=bufferedInputStream.read())!= -1){
-            System.out.print((char)i);
+        while ((i = bufferedInputStream.read()) != -1) {
+            System.out.print((char) i);
         }
         Date date2 = new Date();
         System.out.println(" " + (date2.getTime() - date1.getTime()) + " мильсекунды");
