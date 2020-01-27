@@ -8,6 +8,7 @@ public class Recording {
         String text = "Запиши эту строчку в файл. The END!\r\n";
         fileOutputStream.write(text.getBytes());
 
+
         fileOutputStream.close();
         System.out.println("Файл записан");
 
